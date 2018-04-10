@@ -1,1 +1,3 @@
-./gradlew test
+#!/usr/bin/env sh
+
+ls
