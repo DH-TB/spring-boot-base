@@ -10,3 +10,8 @@ jobs:
       run:
         path: echo
         args: ["Hello, world!"]
+
+- name: auto-trigger
+  plan:
+  - get: resource-tutorial
+    trigger: true
