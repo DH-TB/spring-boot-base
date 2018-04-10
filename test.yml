@@ -25,3 +25,5 @@ image_resource:
 
 inputs:
 - name: resource-tutorial
+run:
+  path: resource-tutorial/test.sh
